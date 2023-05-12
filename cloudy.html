@@ -32,7 +32,7 @@
       rel="stylesheet"
       href="{{ url_for('static', filename='css/style.css') }}"
     />
-    <link rel="stylesheet" href="../static/css/style.css" />
+    <link rel="stylesheet" href="./css/style.css" />
 
     <!-- 파비콘 (
 "shortcut icon"은 IE와 호환, "icon"은 다른 브라우저와 호환됩니다.)-->
@@ -152,7 +152,7 @@
     <!-- 좌측 nav 고정 -->
     <div class="nav">
       <a class="navbar-brand" href="/">
-        <img class="logo" src="../static/images/logo.png" alt="오날엔 로고" />
+        <img class="logo" src="./images/logo.png" alt="오날엔 로고" />
       </a>
       <div
         class="weather-nav"
@@ -169,7 +169,7 @@
         />
         <label class="btn btn-outline-primary main-view" for="main-view">
           <a href="/">
-            <img src="../static/images/smile.png" alt="전체보기" />
+            <img src="./images/smile.png" alt="전체보기" />
           </a>
         </label>
 
@@ -236,7 +236,8 @@
         </label>
       </div>
       <!-- 회원가입 아이콘 -->
-      <a href="/login" class="user-nav">
+
+      <a href="/login.html" class="user-nav">
         <i class="fa-solid fa-user-pen"></i>
       </a>
     </div>
@@ -285,7 +286,7 @@
               checked
             />
             <label class="btn btn-outline-primary all-type" for="all-type">
-              <img src="../static/images/all-type.png" alt="음식전체분류" />
+              <img src="./images/all-type.png" alt="음식전체분류" />
               <!-- <i class="fa-solid fa-sun"></i> -->
             </label>
             <p>전체</p>
@@ -302,7 +303,7 @@
               value="korean"
             />
             <label class="btn btn-outline-primary korean" for="korean">
-              <img src="../static/images/korean.png" alt="한식" />
+              <img src="./images/korean.png" alt="한식" />
             </label>
             <p>한식</p>
           </div>
@@ -317,7 +318,7 @@
               value="western"
             />
             <label class="btn btn-outline-primary western" for="western">
-              <img src="../static/images/western.png" alt="양식" />
+              <img src="./images/western.png" alt="양식" />
             </label>
             <p>양식</p>
           </div>
@@ -332,7 +333,7 @@
               value="china"
             />
             <label class="btn btn-outline-primary china" for="china">
-              <img src="../static/images/china.png" alt="중식" />
+              <img src="./images/china.png" alt="중식" />
             </label>
             <p>중식</p>
           </div>
@@ -347,7 +348,7 @@
               value="japan"
             />
             <label class="btn btn-outline-primary japan" for="japan">
-              <img src="../static/images/japan.png" alt="일식" />
+              <img src="./images/japan.png" alt="일식" />
             </label>
             <p>일식</p>
           </div>
@@ -362,7 +363,7 @@
               value="esc_type"
             />
             <label class="btn btn-outline-primary esc" for="esc_type">
-              <img src="../static/images/esc.png" alt="기타" />
+              <img src="./images/esc.png" alt="기타" />
             </label>
             <p>기타</p>
           </div>
@@ -756,7 +757,7 @@
             <div class="post-modal-comment-listbox">
               <p class="modal-comment-list" id="modal-comment-list">
                 <span class="user-avatar">
-                  <img src="../static/images/smile.png" alt="아이콘" />
+                  <img src="./images/smile.png" alt="아이콘" />
                 </span>
                 <span class="user-name">닉네임</span>
                 <span class="user-comment">넘 맛있어요!</span>
@@ -796,6 +797,6 @@
     <!-- js파일 링크 -->
     <!-- <script src="{{ url_for('static', filename='js/script.js') }}"></script> -->
     <!-- 아래 활성화하면 js가 두 번 돌아가서 껐습니다. -->
-    <script src="../static/js/script.js"></script>
+    <script src="./js/script.js"></script>
   </body>
 </html>
