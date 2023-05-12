@@ -1,5 +1,5 @@
 ### 스파르타 사전캠프 8조 - 미니프로젝트
-
+https://leejoys-lab.github.io/onalen/
 github.io로 끝나는 링크로는 백엔드 구현이 되지 않아서
 
 #### classA_TEAM8.zip 파일을 넣어두었습니다. 참고해주세요.
